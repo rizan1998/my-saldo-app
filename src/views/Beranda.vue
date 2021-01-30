@@ -269,15 +269,15 @@ export default {
           console.log(e);
         });
 
-      var nominal = this.nominallite;
-      var nomor = this.log.nomor;
-      var center = this.kodecenter;
-      window.location.replace(
-        `https://api.whatsapp.com/send?phone=+6289644717672&text=${nominal}.${nomor}.${center}`
-      );
-      this.$router.push(
-        `https://api.whatsapp.com/send?phone=+6289644717672&text=${nominal}.${nomor}.${center}`
-      );
+      // var nominal = this.nominallite;
+      // var nomor = this.log.nomor;
+      // var center = this.kodecenter;
+      // window.location.replace(
+      //   `https://api.whatsapp.com/send?phone=+6285759595969&text=${nominal}.${nomor}.${center}`
+      // );
+      // this.$router.push(
+      //   `https://api.whatsapp.com/send?phone=+6285759595969&text=${nominal}.${nomor}.${center}`
+      // );
     },
     onSubmit(event) {
       event.preventDefault();

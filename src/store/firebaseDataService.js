@@ -1,6 +1,6 @@
 import firebase from "../firebase.js";
 
-const db = firebase.ref("/logs");
+const db = firebase.ref("/dataPembelian");
 
 class TutorialDataService {
     getAll() {

@@ -9,7 +9,7 @@
           <b-navbar-nav>
             <b-nav-item to="/">Beranda</b-nav-item>
             <b-nav-item to="/kontak">Kontak</b-nav-item>
-            <b-nav-item to="/log">Log</b-nav-item>
+            <b-nav-item to="/riwayat_pengiriman">Riwayat Pengiriman</b-nav-item>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
